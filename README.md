@@ -54,9 +54,9 @@ Variabel lingkungan diatur melalui berkas `.env`:
 BOT_NAME=Eling
 
 # Konfigurasi AI (opsional — kosongkan AI_API_KEY untuk Command Mode)
-AI_BASE_URL=https://generativelanguage.googleapis.com/v1beta/openai
-AI_API_KEY=
-AI_MODEL=gemini-2.5-flash
+AI_BASE_URL=your_ai_base_url
+AI_API_KEY=your_api_key
+AI_MODEL=your_model
 
 # Nomor admin (format internasional)
 ADMIN_NUMBER=628xxxxxxxxxx
@@ -67,17 +67,7 @@ ADMIN_NUMBER=628xxxxxxxxxx
 
 - **AI Mode** aktif bila `AI_API_KEY` terisi. Tanpa key, bot berjalan dalam **Command Mode** (hanya merespons perintah berawalan `!`).
 - Mendukung seluruh penyedia berformat OpenAI. Cukup ubah `AI_BASE_URL`, `AI_API_KEY`, dan `AI_MODEL` tanpa mengubah kode.
-
-### Pemilihan model AI
-
-Keandalan bot bergantung pada kemampuan *function calling* model. Model dengan dukungan kuat sangat dianjurkan:
-
-| Model | Function calling | Catatan |
-| --- | --- | --- |
-| `gemini-2.5-pro` | Sangat andal | Pilihan paling stabil |
-| `gemini-3-flash-preview` | Baik | Seimbang antara kecepatan dan akurasi |
-| `gemini-2.5-flash` | Cukup | Sesekali tidak mengeksekusi aksi |
-| `*-flash-lite`, `gemma-*` | Tidak disarankan | Sering gagal memanggil fungsi |
+- Keandalan AI bergantung pada kemampuan *function calling* model yang digunakan. Pilih model yang mendukung fitur tersebut dengan baik.
 
 ## Perintah
 
