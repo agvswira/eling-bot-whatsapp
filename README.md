@@ -2,7 +2,7 @@
 
 Bot WhatsApp untuk grup kuliah: pengingat deadline, penyimpanan link tugas, dan pembagian tugas kelompok berbantuan AI.
 
-Nama *Eling* berasal dari bahasa Jawa/Bali yang berarti "ingat". Tujuan bot ini sederhana: memastikan tidak ada tugas yang terlewat.
+Nama *Eling* berasal dari bahasa Bali/Jawa yang berarti "ingat". Tujuan bot ini sederhana: memastikan tidak ada tugas yang terlewat.
 
 ## Fitur
 
